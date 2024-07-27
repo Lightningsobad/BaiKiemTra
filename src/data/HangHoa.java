@@ -26,14 +26,14 @@ public class HangHoa {
     public void setMahang(String mahang) {
         if (!mahang.isEmpty()) {
             this.mahang = mahang;
-
+            
         } else {
             System.out.println("mã hàng rỗng.");
         }
 
     }
 
-    public String kiemtraSoLuong() {
+    public String kiemtraSoLuong() {    
         if (soLuong == 0) {
             return "Hết hàng";
         } else if (soLuong < 0) {

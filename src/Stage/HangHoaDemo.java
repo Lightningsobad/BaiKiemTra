@@ -82,7 +82,7 @@ public class HangHoaDemo {
                 System.out.print("Sua mau sac: ");
                 arr.get(i).setMausac(sc.nextLine());
                 System.out.print("Sua so luong: ");
-                arr.get(i).setSoLuong(sc.nextInt());
+                arr.get(i).setSoLuong(Integer.parseInt(sc.nextLine()));
             }
 
         }
